@@ -2,21 +2,22 @@
 
 // Premiere ligne
 
-{
+function helloworld (){
     echo "Hello World!";
 }
 
 //Deuxieme ligne
 
-
+helloworld();
 
 //Troisieme ligne
 
 function maFonctionParam($fname, $lname) {
-    echo ;
+    echo $fname;
+    return $lname;
 }
 
 
-
+maFonctionParam('Sylvie', 'Bataille');
 
 
